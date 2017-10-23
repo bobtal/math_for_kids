@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Собирање и Одземање</string>
+    <string name="addition">Собирање</string>
+    <string name="subtraction">Одземање</string>
+    <string name="plus_sign">+</string>
+    <string name="equals_sign">=</string>
+    <string name="feedback_correct">Браво! Точно е!</string>
+    <string name="feedback_wrong">Не е точно, пробај повторно.</string>
+    <string name="new_task">Нова задача</string>
+    <string name="minus_sign">-</string>
+</resources>
