@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".AdditionActivity" />
         <activity android:name=".SubtractionActivity" />
-        <activity android:name=".OperationsActivity"></activity>
+        <activity android:name=".MultiplicationActivity" />
+        <activity android:name=".DivisionActivity"></activity>
     </application>
 
 </manifest>

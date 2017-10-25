@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.addButton) Button addButton;
     @BindView(R.id.subtractButton) Button subtractButton;
+    @BindView(R.id.multiplyButton) Button multiplyButton;
+    @BindView(R.id.divideButton) Button divideButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, SubtractionActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        multiplyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MultiplicationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        divideButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, DivisionActivity.class);
                 startActivity(intent);
             }
         });
