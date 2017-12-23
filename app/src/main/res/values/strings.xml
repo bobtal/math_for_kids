@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">Весела Математика</string>
-    <string name="addition">Собирање</string>
-    <string name="subtraction">Одземање</string>
-    <string name="multiplication">Множење</string>
-    <string name="division">Делење</string>
+    <string name="app_name">Happy math</string>
+    <string name="addition">Addition</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
     <string name="plus_sign">+</string>
     <string name="equals_sign">=</string>
     <string name="minus_sign">-</string>
     <string name="multiplication_sign">x</string>
     <string name="division_sign">:</string>
-    <string name="feedback_correct">Браво! Точно е!</string>
-    <string name="feedback_wrong">Не е точно, пробај повторно.</string>
-    <string name="new_task">Нова задача</string>
+    <string name="feedback_correct">Great job! That\'s correct!</string>
+    <string name="feedback_wrong">That\'s not correct, try again.</string>
+    <string name="new_task">New task</string>
 </resources>
